@@ -54,7 +54,7 @@ const Dashboard = () => {
                 </p>
               </div>
               <div className="text-right">
-                <p className="text-xs font-medium text-gray-500 uppercase tracking-wide">Video Limit</p>
+                <p className="text-xs font-medium text-gray-500 uppercase tracking-wide">Video List API</p>
                 <p className="text-lg font-bold text-gray-900">5</p>
               </div>
               <div className="w-10 h-10 bg-gradient-to-r from-orange-500 to-pink-500 rounded-full flex items-center justify-center text-white font-bold text-sm">
