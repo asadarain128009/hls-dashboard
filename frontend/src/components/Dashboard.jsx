@@ -118,10 +118,6 @@ const Dashboard = () => {
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between space-y-4 sm:space-y-0">
             <div className="flex items-center space-x-4">
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white">
-                <Upload className="w-4 h-4 mr-2" />
-                Upload Video
-              </Button>
               <Button variant="outline" className="border-gray-300">
                 <FolderOpen className="w-4 h-4 mr-2" />
                 New Folder
