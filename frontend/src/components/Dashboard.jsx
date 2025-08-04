@@ -238,7 +238,7 @@ const Dashboard = () => {
                   <div key={video.id} className="p-6 hover:bg-gray-50 transition-colors">
                     <div className="flex items-center space-x-4">
                       <div className="flex-shrink-0">
-                        <div className="w-20 h-14 bg-gray-200 rounded-lg overflow-hidden">
+                        <div className="w-32 h-20 bg-gray-200 rounded-lg overflow-hidden">
                           {video.thumbnail ? (
                             <img 
                               src={video.thumbnail} 
@@ -247,7 +247,7 @@ const Dashboard = () => {
                             />
                           ) : (
                             <div className="w-full h-full flex items-center justify-center">
-                              <Play className="w-6 h-6 text-gray-400" />
+                              <Play className="w-8 h-8 text-gray-400" />
                             </div>
                           )}
                         </div>
