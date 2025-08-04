@@ -49,14 +49,36 @@ const Dashboard = () => {
             <div className="flex items-center space-x-6">
               <div className="text-right">
                 <p className="text-xs font-medium text-gray-500 uppercase tracking-wide">API Key</p>
-                <p className="text-sm font-mono text-gray-900 bg-gray-100 px-3 py-1 rounded-lg">
-                  BxptIEZGo6bGTy4CpHyHrVlt...
-                </p>
+                <div className="flex items-center space-x-2">
+                  <p className="text-sm font-mono text-gray-900 bg-gray-100 px-3 py-1 rounded-lg">
+                    BxptIEZGo6bGTy4CpHyHrVlt
+                  </p>
+                  <Button 
+                    size="sm" 
+                    variant="ghost" 
+                    onClick={() => navigator.clipboard.writeText('BxptIEZGo6bGTy4CpHyHrVlt')}
+                    className="h-8 w-8 p-0 hover:bg-gray-200"
+                  >
+                    <Copy className="h-3 w-3" />
+                  </Button>
+                </div>
               </div>
               <div className="text-right">
-                <p className="text-xs font-medium text-gray-500 uppercase tracking-wide">Video List API</p>
-                <p className="text-lg font-bold text-gray-900">5</p>
+                <Button 
+                  variant="outline" 
+                  size="sm"
+                  className="bg-white border-gray-300 hover:bg-gray-50 text-gray-700"
+                >
+                  Video List API
+                </Button>
               </div>
+              <Button 
+                variant="outline" 
+                size="sm"
+                className="bg-white border-gray-300 hover:bg-gray-50 text-gray-700"
+              >
+                Personalize
+              </Button>
               <div className="w-10 h-10 bg-gradient-to-r from-orange-500 to-pink-500 rounded-full flex items-center justify-center text-white font-bold text-sm">
                 P
               </div>
