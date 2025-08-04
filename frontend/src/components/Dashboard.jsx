@@ -195,10 +195,6 @@ const Dashboard = () => {
                   </div>
                   <h3 className="text-lg font-medium text-gray-900 mb-2">No videos yet</h3>
                   <p className="text-gray-500 mb-6">Upload your first video to get started with ThotPlay</p>
-                  <Button className="bg-blue-600 hover:bg-blue-700 text-white">
-                    <Upload className="w-4 h-4 mr-2" />
-                    Upload Video
-                  </Button>
                 </div>
               ) : (
                 mockData.videos.map((video) => (
