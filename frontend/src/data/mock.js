@@ -1,19 +1,4 @@
 export const mockData = {
-  metrics: {
-    storage: {
-      value: "766 GB",
-      chart: [35, 30, 32, 25, 28, 20, 22, 18, 15, 12, 10]
-    },
-    totalVideos: {
-      value: 0,
-      chart: [35, 38, 36, 30, 32, 28, 25, 22, 20, 18, 15]
-    },
-    totalUsers: {
-      value: 4,
-      chart: [25, 22, 18, 15, 12, 10, 8, 12, 10, 8, 5]
-    }
-  },
-  
   folders: [
     {
       id: 1,
@@ -23,7 +8,16 @@ export const mockData = {
   ],
   
   videos: [
-    // Currently empty as shown in the original dashboard
+    {
+      id: 1,
+      name: "3WhatsApp Video 2025-06-03 at 10:45:09.mp4",
+      size: "3 MB",
+      status: "active",
+      quality: "HD",
+      folder: "No Folder",
+      date: "8/4/2025, 3:17:35 AM",
+      thumbnail: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=400&h=300&fit=crop&crop=center"
+    }
   ],
   
   userInfo: {
