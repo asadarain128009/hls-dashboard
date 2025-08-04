@@ -67,7 +67,7 @@ const Dashboard = () => {
 
       <div className="max-w-7xl mx-auto px-6 py-8">
         {/* Stats Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           <Card className="bg-gradient-to-r from-blue-50 to-blue-100 border-blue-200 hover:shadow-md transition-all">
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
@@ -108,21 +108,6 @@ const Dashboard = () => {
                 </div>
                 <div className="w-12 h-12 bg-purple-200 rounded-full flex items-center justify-center">
                   <Users className="w-6 h-6 text-purple-600" />
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-
-          <Card className="bg-gradient-to-r from-orange-50 to-orange-100 border-orange-200 hover:shadow-md transition-all">
-            <CardContent className="p-6">
-              <div className="flex items-center justify-between">
-                <div>
-                  <p className="text-sm font-medium text-orange-600 mb-1">This Month</p>
-                  <p className="text-3xl font-bold text-orange-900">0</p>
-                  <p className="text-xs text-orange-500 mt-1">Videos uploaded</p>
-                </div>
-                <div className="w-12 h-12 bg-orange-200 rounded-full flex items-center justify-center">
-                  <BarChart3 className="w-6 h-6 text-orange-600" />
                 </div>
               </div>
             </CardContent>
