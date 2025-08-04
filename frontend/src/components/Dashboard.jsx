@@ -309,6 +309,41 @@ const Dashboard = () => {
                 ))
               )}
             </div>
+            
+            {/* Pagination */}
+            <div className="px-6 py-4 border-t border-gray-200 bg-gray-50">
+              <div className="flex items-center justify-between">
+                <p className="text-sm text-gray-600">
+                  Showing 1 of 1 videos
+                </p>
+                <div className="flex items-center space-x-2">
+                  <Button 
+                    variant="outline" 
+                    size="sm" 
+                    disabled 
+                    className="border-gray-200 bg-white text-gray-400"
+                  >
+                    Previous
+                  </Button>
+                  <div className="flex items-center space-x-1">
+                    <Button 
+                      size="sm" 
+                      className="bg-blue-600 text-white hover:bg-blue-700 w-8 h-8 p-0"
+                    >
+                      1
+                    </Button>
+                  </div>
+                  <Button 
+                    variant="outline" 
+                    size="sm" 
+                    disabled 
+                    className="border-gray-200 bg-white text-gray-400"
+                  >
+                    Next
+                  </Button>
+                </div>
+              </div>
+            </div>
           </CardContent>
         </Card>
       </div>
